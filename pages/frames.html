@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Tech Project</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+</head>
+
+<body>
+     <!-- NAVBAR -->
+     <ul class="side-nav">
+            <h1 style="color: white;padding: 10px;text-align: center;">Navigation Bar</h1>
+            <hr>
+            <li>
+                <div class="dropdown">
+                    <a href="frames.html"> <button class="dropbtn active">Frames</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+                <div class="dropdown" >
+                    <a href="css.html "> <button class="dropbtn" >CSS</button></a>
+                     <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+                    <div class="dropdown" >
+                        <a href="htmlTags.html"> <button class="dropbtn" >HTML tag</button></a>
+                            <!-- <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div> -->
+                    </div>
+                </li>
+            <li>
+                    <div class="dropdown">
+                        <a href="classes.html"> <button class="dropbtn">Classes</button></a>
+                        <!-- <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div> -->
+                    </div>
+                </li>
+    
+            <li>
+                <div class="dropdown">
+                    <a href="list.html">  <button class="dropbtn">Lists</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="table.html">  <button class="dropbtn">Table</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+    
+            </li>
+        </ul>
+
+    <!-- NAVBAR -->
+
+    <div class="container">
+        <h1>HTML Frames</h1>
+        <hr>
+        <p>An iframe is used to display a web page within a web page.</p>
+        <iframe src="demo.html" height="300" width="1000"></iframe><br><br>
+        <h1>Iframe Syntax</h1>
+        <hr>
+        <p>An HTML iframe is defined with the <code>&lt;iframe&gt;</code> tag:</p>
+        <br>
+        <div class="w3-code notranslate htmlHigh" style="background-color: white;padding: 10px;">
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>iframe<span style="color:red"> src<span
+                        style="color:mediumblue">="<em>URL</em>"</span></span><span style="color:mediumblue">&gt;</span></span><span
+                style="color:brown"><span style="color:mediumblue">&lt;</span>/iframe<span style="color:mediumblue">&gt;</span></span>
+        </div>
+        <br>
+        <p>The <code>src</code> attribute specifies the URL (web address) of the inline frame page.</p>
+        <br>
+        <h1>Iframe - Set Height and Width</h1>
+        <hr>
+        <p>
+                Use the <code> height</code> and <code> width</code>  attributes to specify the size of the iframe.
+
+                The attribute values are specified in pixels by default, but they can also be in percent (like "80%").
+        </p><br>
+        <div class="w3-code notranslate htmlHigh">
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>iframe<span style="color:red"> src<span style="color:mediumblue">="demo_iframe.htm"</span> height<span style="color:mediumblue">="200"</span> width<span style="color:mediumblue">="300"</span></span><span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/iframe<span style="color:mediumblue">&gt;</span></span> </div>
+        <br>
+        <h1>Iframe - Remove the Border</h1>
+        <hr>
+        <p>
+                By default, an iframe has a border around it.
+
+                To remove the border, add the <code>style</code>attribute and use the CSS <code>border</code> property:
+        </p>
+        <br>
+        <div class="w3-code notranslate htmlHigh">
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>iframe<span style="color:red"> src<span style="color:mediumblue">="demo_iframe.htm"</span> style<span style="color:mediumblue">="border:none;"</span></span><span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/iframe<span style="color:mediumblue">&gt;</span></span> </div>
+            <br>
+        <h1>Iframe - Target for a Link</h1>
+        <hr>
+        <p>An iframe can be used as the target frame for a link.
+
+                The <code>target</code> attribute of the link must refer to the <code>name</code> attribute of the iframe:</p>
+                <br>
+                <div class="w3-code notranslate htmlHigh">
+                        <span style="color:brown"><span style="color:mediumblue">&lt;</span>iframe<span style="color:red"> src<span style="color:mediumblue">="demo_iframe.htm"</span> name<span style="color:mediumblue">="iframe_a"</span></span><span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/iframe<span style="color:mediumblue">&gt;</span></span><br><br>
+                        <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>a<span style="color:red"> href<span style="color:mediumblue">="https://www.w3schools.com"</span> target<span style="color:mediumblue">="iframe_a"</span></span><span style="color:mediumblue">&gt;</span></span>W3Schools.com<span style="color:brown"><span style="color:mediumblue">&lt;</span>/a<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+                        </div>
+            <br>
+</body>
+
+</html>

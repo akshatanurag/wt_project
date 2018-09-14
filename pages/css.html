@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Tech Project</title>
+    <link rel="stylesheet" href="../css/main.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+	<style>
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    
+}
+</style>
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <ul class="side-nav">
+        <h1 style="color: white;padding: 10px;text-align: center;">Navigation Bar</h1>
+        <hr>
+        <li>
+            <div class="dropdown">
+                <a href="frames.html"> <button class="dropbtn">Frames</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown" >
+                <a href="css.html "> <button class="dropbtn active" >CSS</button></a>
+            </div>
+
+            <div class="links">
+                    <a href="#intro">CSS Introduction</a><br>
+                    <a href="#syntax">CSS Syntax and Selectors</a><br>
+                    <a href="#add_css">Adding CSS</a><br>
+            </div>
+        </li>
+        <li>
+                <div class="dropdown" >
+                    <a href="htmlTags.html"> <button class="dropbtn" >HTML tag</button></a>
+                        <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+        <li>
+                <div class="dropdown">
+                    <a href="classes.html">  <button class="dropbtn">Classes</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+
+        <li>
+            <div class="dropdown">
+                <a href="list.html">  <button class="dropbtn">Lists</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="table.html">  <button class="dropbtn">Table</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+
+        </li>
+    </ul>
+	<div class="container">
+
+            <h1 id="intro">CSS Introduction</h1>
+            <hr>
+            <p>What is CSS?
+                <ul>
+                    <li>CSS stands for Cascading Style Sheets</li>
+                    <li>CSS describes how HTML eluents are to be displayed on screen, paper, or in other media</li>
+                    <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                    <li>External stylesheets are stored in CSS files</li>
+                </ul>
+            </p>
+            
+            <h1 id = "syntax">CSS Syntax and Selectors</h1>
+            <hr>
+            <p>
+                    <h3>CSS Syntax</h3>
+                    A CSS rule-set consists of a selector and a declaration block:<br><br>
+                    
+                    CSS selector<br>
+                    <img src="../img/selector.gif" width="400" style="margin-left : 40px"><br><br>
+                    The selector points to the HTML eluent you want to style.<br>
+                    
+                    The declaration block contains one or more declarations separated by suicolons.<br>
+                    
+                    Each declaration includes a CSS property name and a value, separated by a colon.<br>
+                    
+                    A CSS declaration always ends with a suicolon, and declaration blocks are surrounded by curly braces.<br>
+                    
+                    In the following example all <code>&lt;p&gt;</code> eluents will be center-aligned, with a red text color:<br>
+            </p>
+            
+            <p style="font-size: 10">ELEMENT SELECTOR</p>
+            <div class="w3-code notranslate htmlHigh">
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+                <strong>p</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span>&nbsp;&nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;<span style="color:red"> padding</span><span style="color:mediumblue"><span style="color:black">:</span> 
+                10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span>
+                <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
+            </div>
+            
+            <p style="font-size: 10">ID SELECTOR</p>
+            <div class="w3-code notranslate htmlHigh">
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+                <strong>#element</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span>&nbsp;&nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;<span style="color:red"> padding</span><span style="color:mediumblue"><span style="color:black">:</span> 
+                10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span>
+                <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
+            </div>
+            
+            <p style="font-size: 10">CLASS SELECTOR</p>
+            <div class="w3-code notranslate htmlHigh">
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+                <strong>.main_class</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span>&nbsp;&nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;<span style="color:red"> padding</span><span style="color:mediumblue"><span style="color:black">:</span> 
+                10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span>
+                <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
+            </div>
+
+            <h1 id = "add_css">Adding CSS</h1>
+                <hr>
+                <p>
+                    <strong>Three ways to specify style information in a document:</strong>
+                        <ul>
+                            <li> External </li>
+                            <li> Embedded or Internal</li>
+                            <li> Inline</li>
+                        </ul>
+                </p>
+
+                <strong>External Style Sheets</strong>
+                <p style="margin-left:20px">   
+                        Here, style information is written in a separate file and is
+                        referenced from an HTML document.
+                        <br> This is useful when the same style is applied on different
+                        documents.
+                        <br> External style sheets are cached by most of the browsers
+                        <br><br> External style sheets can be of three types:
+                        <br><br> <u>Persistent</u>: &nbsp;It is one that is always applied.
+                        <br> <u>Alternate</u>:  &nbsp;Out of the set of alternate style sheets, one is selected by the user depending on their choice.
+                        <br> <u>Preferred</u>: &nbsp;It is applied when no style sheet is selected.
+                        <br><br> Several alternate style sheets may be grouped under a single title.
+                </p>
+            
+                <p>
+                        Attribute <b>rel</b> specifies the type of style sheet used its value is stylesheet for persistent and preferred style sheets.
+                        <br><br> Its value is <b>alternate stylesheet</b> for alternate style sheets.
+                        <br><br> Persistent style sheet is specified by the absence of title attribute, whereas preferred and alternate style sheets are specified by the presence of title attribute.
+                        <br><br> Any number of external style sheets can be specified for a document.
+                </p>
+
+                <div class="w3-code notranslate htmlHigh" style="background-color: white;padding: 10px;">
+                    <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> href<span
+                                style="color:mediumblue">="<em>style.css</em>"</span></span><span style="color:red"> type<span
+                                    style="color:mediumblue">="<em>text/css</em>"</span></span><span style="color:red"> rel<span
+                                    style="color:mediumblue">="<em>stylesheet</em>"</span></span><span style="color:mediumblue">&gt;</span></span><span
+                        style="color:brown">
+                </div>
+                <div class="w3-code notranslate htmlHigh" style="background-color: white;padding: 10px;">
+                    <span style="color:brown"><span style="color:mediumblue">&lt;</span>link<span style="color:red"> href<span
+                                style="color:mediumblue">="<em>style.css</em>"</span></span><span style="color:red"> type<span
+                                    style="color:mediumblue">="<em>text/css</em>"</span></span><span style="color:red"> rel<span
+                                    style="color:mediumblue">="<em>alternate stylesheet</em>"</span></span><span style="color:mediumblue">&gt;</span></span><span
+                        style="color:brown">
+                </div>
+
+                <br><strong>Embeded Style Sheets</strong>
+                <p style="margin-left:20px">   
+                        Style information is placed under the <code>&lt;style&gt;</code> tag in the head section of an HTML page
+                        <div class="w3-code notranslate htmlHigh">
+                            <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+                            <strong>p</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span>&nbsp;&nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;<span style="color:red"> padding</span><span style="color:mediumblue"><span style="color:black">:</span> 
+                            10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span>
+                            <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span>
+                        </div>
+                </p>
+
+                <br><strong>Inline Style Sheets</strong>
+                <p style="margin-left:20px">   
+                        Style information is incorporated directly into the HTML tags
+                        <div class="w3-code notranslate htmlHigh" style="background-color: white;padding: 10px;">
+                            <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:red"> style<span
+                                    style="color:mediumblue">="color:red"</span></span><span style="color:mediumblue">&gt;</span></span><span style="color:brown">
+                            <span><span style="color:black;">Hello&nbsp;</span><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+                         </div>
+                </p>
+    </div>
+</body>
+</html>

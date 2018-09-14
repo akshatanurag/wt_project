@@ -1,0 +1,117 @@
+body{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f7f7;
+}
+p{
+    font-size: 20px;
+}
+.container {
+    padding: 20px;
+    margin-left: 25%;
+}
+.side-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/mountainscene_dribbble.png');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto;
+    -webkit-box-shadow: 10px 3px 10px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 10px 3px 10px 0px rgba(0,0,0,0.65);
+box-shadow: 10px 3px 10px 0px rgba(0,0,0,0.65); 
+}
+
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    
+    font-size: 20px;
+    /* width: 150%; */
+    transition: all 0.2s linear;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+    padding-top: 8px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 30px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    border: 1px solid white;
+}
+code{
+    color: crimson;
+    background-color: #e4e1e1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%;
+}
+.htmlHigh{
+    background-color: white;
+    padding: 10px;
+}
+.active{
+    border: 1px solid white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.links{
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.links a{
+    color: #e4e1e1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover{
+    color: cyan;
+    padding: 5px;
+}

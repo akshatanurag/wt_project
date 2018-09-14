@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Tech Project</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+	<style>
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    
+}
+</style>
+
+</head>
+
+<body>
+     <!-- NAVBAR -->
+     <ul class="side-nav">
+            <h1 style="color: white;padding: 10px;text-align: center;">Navigation Bar</h1>
+            <hr>
+            <li>
+                <div class="dropdown">
+                    <a href="frames.html"> <button class="dropbtn">Frames</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+                <div class="dropdown" >
+                    <a href="css.html "> <button class="dropbtn" >CSS</button></a>
+                     <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+                    <div class="dropdown" >
+                        <a href="htmlTags.html"> <button class="dropbtn" >HTML tag</button></a>
+                            <!-- <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div> -->
+                    </div>
+                </li>
+            <li>
+                    <div class="dropdown">
+                        <a href="classes.html">  <button class="dropbtn active">Classes</button></a>
+                        <!-- <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div> -->
+                    </div>
+                </li>
+    
+            <li>
+                <div class="dropdown">
+                    <a href="list.html">  <button class="dropbtn">Lists</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="table.html">  <button class="dropbtn">Table</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+            <li>
+    
+            </li>
+        </ul>
+	<div class="container">
+            <h1 id = "class_attribute">Using The class Attribute</h1>
+            <hr>
+            <p>The class attribute specifies  one or more class names for an HTML eluent.</p><p>The class name can be used by CSS and 
+            JavaScript to perform certain tasks for eluents with the specified class name.</p><p>
+            In CSS, to select eluents with a specific class, write a period <code>(.)</code> character, 
+            followed by the name of the class: </p>
+
+            <div class="w3-code notranslate htmlHigh">
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
+                <strong>.city</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;background-color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> white<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; padding<span style="color:mediumblue"><span style="color:black">:</span> 
+                10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span> <br></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span><br>
+                <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> 
+                <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>London<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>London is the capital of England.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br>
+                <span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>Paris<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Paris is the capital of France.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> 
+                <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>Tokyo<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Tokyo is the capital of Japan.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br> 
+            </div>
+
+
+                <div class="w3-white w3-padding">
+                    <h2 class="city">London</h2>
+                <p>London is the capital of England.</p>
+                
+                <h2 class="city">Paris</h2>
+                <p>Paris is the capital of France.</p>
+                
+                <h2 class="city">Tokyo</h2>
+                <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                
+
+    </div>
+</body>
+</html>
