@@ -25,13 +25,13 @@ STEP 1: Start Copying from here. -->
 </head>
 
 <body>
-   <!-- NAVBAR -->
-   <ul class="side-nav">
+        <!-- NAVBAR -->
+        <ul class="side-nav">
         <h1 style="color: white;padding: 10px;text-align: center;">Navigation Bar</h1>
         <hr>
         <li>
             <div class="dropdown">
-                <a href="pages/frames.html"> <button class="dropbtn active">Frames</button></a>
+                <a href="pages/frames.html"> <button class="dropbtn">Frames</button></a>
                 <!-- <div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
@@ -40,14 +40,14 @@ STEP 1: Start Copying from here. -->
             </div>
         </li>
         <li>
-                <div class="dropdown" >
-                    <a href="pages/css.html "> <button class="dropbtn" >CSS</button></a>
-                    <!-- <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> -->
-                </div>
+            <div class="dropdown" >
+                <a href="pages/css.html "> <button class="dropbtn" >CSS</button></a>
+                 <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
         </li>
         <li>
                 <div class="dropdown" >
@@ -60,16 +60,16 @@ STEP 1: Start Copying from here. -->
                 </div>
             </li>
         <li>
-            <div class="dropdown" >
-                <a href="pages/classes.html "> <button class="dropbtn" >Class</button></a>
-                <!-- <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div> -->
-            </div>
-        </li>
-        
+                <div class="dropdown">
+                    <a href="pages/classes.html"> <button class="dropbtn">Classes</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
+            </li>
+
         <li>
             <div class="dropdown">
                 <a href="pages/list.html">  <button class="dropbtn">Lists</button></a>
@@ -91,12 +91,61 @@ STEP 1: Start Copying from here. -->
             </div>
         </li>
         <li>
+            <div class="dropdown">
+                <a href="pages/heading.html">  <button class="dropbtn">Headings</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="pages/attributes.html">  <button class="dropbtn">Attributes</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="pages/aditya_file_path.html">  <button class="dropbtn">Path</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="pages/aditya_head.html">  <button class="dropbtn">Head</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="pages/aditya_id.html">  <button class="dropbtn">Id</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
 
         </li>
     </ul>
 
-    <!-- NAVBAR -->
-
+<!-- NAVBAR -->
     <!--UP TILL HERE
     
     
