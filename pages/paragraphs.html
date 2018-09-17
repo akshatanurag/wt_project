@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,17 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Tech Project</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main.css"> <!--This href path will change when you create your page in the pages folder. So the relative path will be "../css/main.css"-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
-	<style>
-.city {
-    background-color: tomato;
-    color: white;
-    padding: 10px;
-    
-}
-</style>
-
 </head>
 
 <body>
@@ -78,7 +68,7 @@
                 </li>
             <li>
                     <div class="dropdown">
-                        <a href="classes.html"> <button class="dropbtn active">Classes</button></a>
+                        <a href="classes.html"> <button class="dropbtn">Classes</button></a>
                         <!-- <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -211,7 +201,7 @@
     
             <li>
                 <div class="dropdown">
-                    <a href="paragraphs.html">  <button class="dropbtn">Paragraph</button></a>
+                    <a href="paragraphs.html">  <button class="dropbtn active">Paragraph</button></a>
                     <!-- <div class="dropdown-content">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
@@ -236,37 +226,119 @@
     
     <!-- NAVBAR -->
 	<div class="container">
-            <h1 id = "class_attribute">Using The class Attribute</h1>
-            <hr>
-            <p>The class attribute specifies  one or more class names for an HTML eluent.</p><p>The class name can be used by CSS and 
-            JavaScript to perform certain tasks for eluents with the specified class name.</p><p>
-            In CSS, to select eluents with a specific class, write a period <code>(.)</code> character, 
-            followed by the name of the class: </p>
+	<h1>HTML <span class="color_h1">Paragraphs</span></h1>
 
-            <div class="w3-code notranslate htmlHigh">
-                <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
-                <strong>.city</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;background-color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> white<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; padding<span style="color:mediumblue"><span style="color:black">:</span> 
-                10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span> <br></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span><br>
-                <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> 
-                <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>London<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>London is the capital of England.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br>
-                <span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>Paris<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Paris is the capital of France.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> 
-                <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>Tokyo<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Tokyo is the capital of Japan.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br> 
-            </div>
+<hr>
+<h2>HTML Paragraphs</h2>
+<p>The HTML&lt;<span style="color:brown">p</span>&gt;</code> element defines a <strong>paragraph</strong>:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;<span style="color:brown">p</span>&gt;This is a paragraph.&lt;<span style="color:brown">/p</span>&gt;<br>
+&lt;<span style="color:brown">p</span>&gt;This is another paragraph.&lt;<span style="color:brown">/p</span>&gt;
+</div>
+
+</div>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> Browsers automatically add some white space (a margin) before and after a paragraph.</p>
+</div>
+<hr>
+
+<h2>HTML Display</h2>
+<p>You cannot be sure how HTML will be displayed.</p>
+<p>Large or small screens, and resized windows will create different results. </p>
+<p>With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.</p>
+<p>The browser will remove any extra spaces and extra lines when the page is 
+displayed:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">p</span>&gt;<br>This paragraph<br>contains a lot of lines<br>in the source code,<br>but 
+ the browser <br>ignores it.<br>&lt;<span style="color:brown">/p</span>&gt;<br><br>&lt;<span style="color:brown">p</span>&gt;<br>This paragraph<br>contains&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ a lot of spaces<br>in the source&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ code,<br>but the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; browser <br>ignores 
+ it.<br>&lt;<span style="color:brown">/p</span>&gt;</div>
+</div>
+<div style="overflow:auto;text-align:center">
+  <div id="snhb-mid_content-0"></div>
+    
+</div>
+<hr>
+<h2>Don't Forget the End Tag</h2>
+<p>Most browsers will display HTML correctly even if you forget the end tag:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;<span style="color:brown">p</span>&gt;This is a paragraph.<br>
+&lt;<span style="color:brown">p</span>&gt;This is another paragraph.</div>
+</div>
+<p>The example above will work in most browsers, but do not rely on it.</p>
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> Dropping the end tag can produce unexpected results or errors.</p>
+</div>
+<hr>
+
+<h2>HTML Line Breaks</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">br</span>&gt;</code> element defines a <strong>line break</strong>.</p>
+<p>Use <code class="w3-codespan">&lt;<span style="color:brown">br</span>&gt;</code> if you want a line break (a new line) without starting a new paragraph:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;<span style="color:brown">p</span>&gt;This is&lt;<span style="color:brown">br</span>&gt;a paragraph&lt;<span style="color:brown">br</span>&gt;with line breaks.&lt;<span style="color:brown">/p</span>&gt;</div>
+</div>
+<p>The <code class="w3-codespan">&lt;<span style="color:brown">br</span>&gt;</code> tag is an empty tag, which means that it has no end tag.</p>
+<hr>
+
+<h2>The Poem Problem</h2>
+<p>This poem will display on a single line:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">p</span>&gt;<br>&nbsp; My Bonnie lies over 
+ the ocean.<br><br>&nbsp; My Bonnie lies over the sea.<br><br>&nbsp; My Bonnie 
+ lies over the ocean.<br><br>&nbsp; Oh, bring back my Bonnie to me.<br>&lt;<span style="color:brown">/p</span>&gt;</div>
+</div>
+<hr>
+
+<h2>The HTML &lt;pre</span>&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">pre</span>&gt;</code> element defines preformatted text.</p>
+<p>The text inside a <code class="w3-codespan">&lt;<span style="color:brown">pre</span>&gt;</code> element is displayed in a fixed-width font (usually 
+Courier), and it preserves both spaces and line breaks:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">pre</span>&gt;<br>&nbsp; My Bonnie lies over the ocean.<br>
+<br>&nbsp; My Bonnie lies over the sea.<br><br>&nbsp; My Bonnie lies over the 
+ocean.<br><br>&nbsp; Oh, bring back my Bonnie to me.<br>&lt;<span style="color:brown">/pre</span>&gt;</div>
+</div>
+<hr>
 
 
-                <div class="w3-white w3-padding">
-                    <h2 class="city">London</h2>
-                <p>London is the capital of England.</p>
-                
-                <h2 class="city">Paris</h2>
-                <p>Paris is the capital of France.</p>
-                
-                <h2 class="city">Tokyo</h2>
-                <p>Tokyo is the capital of Japan.</p>
-                </div>
 
-                
+<h2>HTML Tag Reference</h2>
+<p>W3Schools' tag reference contains additional information about HTML elements and their attributes.</p>
+<table class="w3-table-all notranslate">
+<tr>
+ <th>Tag</th>
+ <th>Description</th>
+</tr>
+<tr>
+  <td><a href="/tags/tag_p.asp">&lt;<span style="color:brown">p</span>&gt;</a></td>
+  <td>Defines a paragraph</td>
+</tr>
+<tr>
+  <td><a href="/tags/tag_br.asp">&lt;<span style="color:brown">br</span>&gt;</a></td>
+  <td>Inserts a single line break</td>
+</tr>
+<tr>
+  <td><a href="/tags/tag_pre.asp">&lt;<span style="color:brown">pre</span>&gt;</a></td>
+  <td>Defines pre-formatted text</td>
+</tr>
+</table>
 
-    </div>
+<br>
+
+</div>
 </body>
 </html>
+

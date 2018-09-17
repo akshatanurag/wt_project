@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,17 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Tech Project</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main.css"> <!--This href path will change when you create your page in the pages folder. So the relative path will be "../css/main.css"-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
-	<style>
-.city {
-    background-color: tomato;
-    color: white;
-    padding: 10px;
-    
-}
-</style>
-
 </head>
 
 <body>
@@ -78,7 +68,7 @@
                 </li>
             <li>
                     <div class="dropdown">
-                        <a href="classes.html"> <button class="dropbtn active">Classes</button></a>
+                        <a href="classes.html"> <button class="dropbtn">Classes</button></a>
                         <!-- <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -170,7 +160,7 @@
             </li>
             <li>
                 <div class="dropdown">
-                    <a href="formatting.html">  <button class="dropbtn">Formatting</button></a>
+                    <a href="formatting.html">  <button class="dropbtn active">Formatting</button></a>
                     <!-- <div class="dropdown-content">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
@@ -235,38 +225,146 @@
         </ul>
     
     <!-- NAVBAR -->
-	<div class="container">
-            <h1 id = "class_attribute">Using The class Attribute</h1>
-            <hr>
-            <p>The class attribute specifies  one or more class names for an HTML eluent.</p><p>The class name can be used by CSS and 
-            JavaScript to perform certain tasks for eluents with the specified class name.</p><p>
-            In CSS, to select eluents with a specific class, write a period <code>(.)</code> character, 
-            followed by the name of the class: </p>
+    <div class="container">
+	<h1>HTML <span class="color_h1">Text Formatting</span></h1>
 
-            <div class="w3-code notranslate htmlHigh">
-                <span style="color:brown"><span style="color:mediumblue">&lt;</span>style<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><br>
-                <strong>.city</strong> <span style="color:black">{</span><span style="color:red"><br>&nbsp; &nbsp;&nbsp;background-color<span style="color:mediumblue"><span style="color:black">:</span> tomato<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; color<span style="color:mediumblue"><span style="color:black">:</span> white<span style="color:black">;</span></span><br>&nbsp;&nbsp;&nbsp; padding<span style="color:mediumblue"><span style="color:black">:</span> 
-                10px<span style="color:black">;</span></span><br></span><span style="color:black">}</span> <br></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/style<span style="color:mediumblue">&gt;</span></span><br>
-                <br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> 
-                <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>London<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>London is the capital of England.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br>
-                <span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>Paris<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Paris is the capital of France.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>h2<span style="color:red"> 
-                <strong>class<span style="color:mediumblue">="city"</span></strong></span><span style="color:mediumblue">&gt;</span></span>Tokyo<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h2<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Tokyo is the capital of Japan.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br> 
-            </div>
+<div class="w3-example">
+<h3>Text Formatting</h3>
+<div class="w3-white w3-padding notranslate">
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+</div>
+<hr>
 
+<h2>HTML Formatting Elements</h2>
+<p>In the previous chapter, you learned about the HTML <strong>style attribute</strong>.</p>
+<p>HTML also defines special <strong>elements</strong> for defining 
+text with a special <strong>meaning</strong>.</p>
 
-                <div class="w3-white w3-padding">
-                    <h2 class="city">London</h2>
-                <p>London is the capital of England.</p>
-                
-                <h2 class="city">Paris</h2>
-                <p>Paris is the capital of France.</p>
-                
-                <h2 class="city">Tokyo</h2>
-                <p>Tokyo is the capital of Japan.</p>
-                </div>
+<p>HTML uses elements like &lt;<span style="color:brown">b</span>&gt;</code> and <code class="w3-codespan">&lt;<span style="color:brown">i</span>&gt;</code> for formatting output,
+like <b>bold</b> or <i>italic</i> text.</p>
 
-                
+<p>Formatting elements were designed to display special types of text:</p>
+<ul>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">b</span>&gt;</code> - Bold text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">strong</span>&gt;</code> - Important text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">i</span>&gt;</code> - Italic text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">em</span>&gt;</code> - Emphasized text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">mark</span>&gt;</code> - Marked text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">small</span>&gt;</code> - Small text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">del</span>&gt;</code> - Deleted text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">ins</span>&gt;</code> - Inserted text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">sub</span>&gt;</code> - Subscript text</li>
+ <li><code class="w3-codespan">&lt;<span style="color:brown">sup</span>&gt;</code> - Superscript text</li>
+</ul>
+<hr>
 
-    </div>
+<h2>HTML &lt;b&gt; and &lt;strong&gt; Elements</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">b</span>&gt;</code> element defines <strong>bold</strong> text, 
+without any extra importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+    &lt;<span style="color:brown">b</span>&gt;This text is bold&lt;<span style="color:brown">/b</span>&gt;</div>
+</div>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">strong</span>&gt;</code> element defines <strong>strong</strong> 
+text, with added semantic &quot;strong&quot; importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+ <div class="w3-code notranslate htmlHigh">
+     &lt;<span style="color:brown">strong</span>&gt;This text is strong&lt;<span style="color:brown">/strong</span>&gt;</div>
+</div>
+<hr>
+<div style="overflow:auto;text-align:center">
+    
+</div>
+<hr>
+<h2>HTML &lt;i&gt; and &lt;em&gt; Elements</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">i</span>&gt;</code> element defines <em>italic</em> text, without any extra importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+    &lt;<span style="color:brown">i</span>&gt;This text is italic&lt;<span style="color:brown">/i</span>&gt;</div>
+</div>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">em</span>&gt;</code> element defines <em>emphasized</em> 
+text, with added semantic importance.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+    &lt;<span style="color:brown">em</span>&gt;This text is 
+ emphasized&lt;<span style="color:brown">/em</span>&gt;</div>
+</div>
+
+<div class="w3-panel w3-note">
+  <p><strong>Note:</strong> Browsers display <code class="w3-codespan">&lt;<span style="color:brown">strong</span>&gt;</code> as <code class="w3-codespan">&lt;<span style="color:brown">b</span>&gt;</code>, and <code class="w3-codespan">&lt;<span style="color:brown">em</span>&gt;</code> as <code class="w3-codespan">&lt;<span style="color:brown">i</span>&gt;</code>.
+However, there is a difference in the meaning of these tags:
+<code class="w3-codespan">&lt;<span style="color:brown">b</span>&gt;</code> and <code class="w3-codespan">&lt;<span style="color:brown">i</span>&gt;</code> defines bold and italic text, but
+<code class="w3-codespan">&lt;<span style="color:brown">strong</span>&gt;</code> and <code class="w3-codespan">&lt;<span style="color:brown">em</span>&gt;</code> means that the text is &quot;important&quot;.</p>
+</div>
+<hr>
+
+<h2>HTML &lt;small&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">small</span>&gt;</code> element defines <small>smaller</small> text:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;<span style="color:brown">h2</span>&gt;HTML 
+&lt;<span style="color:brown">small</span>&gt;Small&lt;<span style="color:brown">/small</span>&gt; Formatting&lt;<span style="color:brown">/h2</span>&gt;<br>
+</div>
+<hr>
+
+<h2>HTML &lt;mark&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;mark&gt;</code> element defines <mark>marked</mark> or <mark>highlighted</mark> text:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+&lt;<span style="color:brown">h2</span>&gt;HTML 
+&lt;<span style="color:brown">mark</span>&gt;Marked&lt;<span style="color:brown">/mark</span>&gt; Formatting&lt;<span style="color:brown">/h2</span>&gt;<br>
+</div>
+<hr>
+
+<h2>HTML &lt;del&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">del</span>&gt;</code> element defines <del>deleted</del> (removed) text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">p</span>&gt;My favorite color is &lt;<span style="color:brown">del</span>&gt;blue&lt;<span style="color:brown">/del</span>&gt; red.&lt;<span style="color:brown">/p</span>&gt;<br>
+</div>
+</div>
+
+<hr>
+<h2>HTML &lt;ins&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">ins</span>&gt;</code> element defines <ins>inserted</ins> 
+(added) text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">p</span>&gt;My favorite 
+ &lt;<span style="color:brown">ins</span>&gt;color&lt;<span style="color:brown">/ins</span>&gt; is red.&lt;<span style="color:brown">/p</span>&gt;<br>
+</div>
+
+<hr>
+<h2>HTML &lt;sub&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">sub</span>&gt;</code> element defines <sub>subscripted</sub> text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">p</span>&gt;This 
+ is &lt;<span style="color:brown">sub</span>&gt;subscripted&lt;<span style="color:brown">/sub</span>&gt; text.&lt;<span style="color:brown">/p</span>&gt;<br>
+</div>
+
+<hr>
+<h2>HTML &lt;sup&gt; Element</h2>
+<p>The HTML <code class="w3-codespan">&lt;<span style="color:brown">sup</span>&gt;</code> element defines <sup>superscripted</sup> text.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ &lt;<span style="color:brown">p</span>&gt;This 
+ is &lt;<span style="color:brown">sup</span>&gt;superscripted&lt;<span style="color:brown">/sup</span>&gt; text.&lt;<span style="color:brown">/p</span>&gt;<br>
+</div>
+<hr>
+</div>
 </body>
 </html>
+

@@ -8,14 +8,6 @@
     <title>Web Tech Project</title>
     <link rel="stylesheet" href="../css/main.css"> <!--This href path will change when you create your page in the pages folder. So the relative path will be "../css/main.css"-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
-<style>
-     #header{
-			  background-color: lightblue;
-              color: black;
-              padding: 40px;
-              text-align: center;
-			}
-</style>
 </head>
 
 <body>
@@ -25,7 +17,7 @@
         <hr>
         <li>
             <div class="dropdown">
-                <a href="intro1.html">  <button class="dropbtn">Introduction</button></a>
+                <a href="intro1.html">  <button class="dropbtn active">Introduction</button></a>
                 <!-- <div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
@@ -147,7 +139,7 @@
         </li>
         <li>
             <div class="dropdown">
-                <a href="aditya_id.html">  <button class="dropbtn active">Id</button></a>
+                <a href="aditya_id.html">  <button class="dropbtn">Id</button></a>
                 <!-- <div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
@@ -233,63 +225,43 @@
     </ul>
 
 <!-- NAVBAR -->
+	<div class="container">
+	<h1 id="home"><b>HTML Home</b></h1>
+	<hr>
+	<p>
+	With HTML you can create your own Website.<br><br>
 
-<div class="container">
-<h1>HTML The id Attribute</h1>
-<h2>Using The ID attribute</h2>
-<p>The <code style="color:blue">id</code> attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).</p>
-</p>The id value can be used by CSS and JavaScript to perform certain tasks for a unique element with the specified id value.</p>
- </p>In CSS, to select an element with a specific id, write a hash (#) character, followed by the id of the element:</p>
-<div class="w3-code notranslate htmlHigh">&lt;style&gt;<br>
-  <strong>#myHeader</strong> {<br>&nbsp; &nbsp;&nbsp;background-color: lightblue;<br>&nbsp;&nbsp;&nbsp; 
-  color: black;<br>&nbsp;&nbsp;&nbsp; padding: 
-  40px;<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>} <br>&lt;/style&gt;<br>
-  <br>&lt;h1 id=&quot;myHeader&quot;&gt;My Header&lt;/h1&gt;<br></div>
-<p id="header">My Header</p>
-<hr>
+    This tutorial teaches you everything about HTML.<br><br>
 
-<h2>Difference Between Class and ID</h2>
-<p>An HTML element can only have one unique id that belongs to that single element, while a class name can be used by multiple elements:</p>
-
-<div class="w3-code notranslate htmlHigh">
-  &lt;style&gt;<br>/* Style the element with the id "myHeader" 
-  */<br>
-  <strong>#myHeader</strong> {<br>&nbsp; &nbsp;&nbsp;background-color: lightblue;<br>&nbsp;&nbsp;&nbsp; 
-  color: black;<br>&nbsp;&nbsp;&nbsp; padding: 
-  40px;<br>&nbsp;&nbsp;&nbsp; text-align: center;<br>}<br><br>/* Style all 
-  elements with the class name "city" */<br><strong>.city
-  </strong>{<br>&nbsp;&nbsp;&nbsp; background-color: tomato;<br>&nbsp;&nbsp;&nbsp; 
-  color: white;<br>&nbsp;&nbsp;&nbsp; padding: 10px;<br>} <br>&lt;/style&gt;<br>
-  <br>&lt;!-- A unique element --&gt;<br>&lt;h1 id=&quot;myHeader&quot;&gt;My 
-  Cities&lt;/h1&gt;<br><br>&lt;!-- Multiple similar elements --&gt;<br>&lt;h2 class=&quot;city&quot;&gt;London&lt;/h2&gt;<br>&lt;p&gt;London is the capital of England.&lt;/p&gt;<br><br>
-  &lt;h2 class=&quot;city&quot;&gt;Paris&lt;/h2&gt;<br>&lt;p&gt;Paris is the capital of France.&lt;/p&gt;<br><br>
-  &lt;h2 class=&quot;city&quot;&gt;Tokyo&lt;/h2&gt;<br>&lt;p&gt;Tokyo is the capital of Japan.&lt;/p&gt;<br></div>
-<hr>
-<h2>Using The id Attribute in JavaScript</h2>
-<p>JavaScript can access an element with a specified id by using the <code style="color:red">getElementById()</code> method:</p>
-
-<div class="w3-code notranslate htmlHigh">
-  &lt;script&gt;<br>function displayResult() {<br>&nbsp;&nbsp;&nbsp; 
-  document.getElementById(&quot;myHeader&quot;).innerHTML = &quot;Have a nice day!&quot;;<br>}<br>
-  &lt;/script&gt;</div>
-<hr>
-<h2>Bookmarks with ID and Links</h2>
-<p>HTML bookmarks are used to allow readers to jump to specific parts of a Web page.</p>
-<p>Bookmarks can be useful if your webpage is very long.</p>
-<p>To make a bookmark, you must first create the bookmark, and then add a link to it.</p>
-<p>When the link is clicked, the page will scroll to the location with the bookmark.</p>
-<h2>Example</h2>
-<p>First, create a bookmark with the <code style="color:blue">id</code> attribute:</p>
-<div class="w3-code notranslate htmlHigh">
-&lt;h2 id=&quot;C4&quot;&gt;Chapter 4&lt;/h2&gt;</div>
-<p>Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page:</p>
-<div class="w3-code notranslate htmlHigh">
- &lt;a href=&quot;#C4&quot;&gt;Jump to Chapter 4&lt;/a&gt;
-</div>
-<p>Or, add a link to the bookmark ("Jump to Chapter 4"), from another page:</p>
-<div class="w3-code notranslate htmlHigh">
-&lt;a href=&quot;html_demo.html#C4&quot;&gt;Jump to Chapter 4&lt;/a&gt;
-</div>
-</div>
+    HTML is easy to learn - You will enjoy it.<br><br>
+	</p>
+	<h1 id = "example">Examples in every chapter</h1>
+	
+	<hr>
+	<p>
+	This HTML tutorial contains HTML examples.<br>
+	At the end of the HTML tutorial, you can find examples related to the topics.<br>
+	</p>
+	<p style="font-size: 10">Example</p>
+	<div class="w3-code notranslate htmlHigh" style="background-color: white;padding: 10px;">
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>! DOCTYPE<span style="color:red"> html <span style="color:mediumblue">&gt;</span></span></span><span style="color:brown"><br>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>html<span style="color:mediumblue">&gt;</span></span><br>
+			<span style="color:brown"><span style="color:mediumblue">&lt;</span>head<span style="color:mediumblue">&gt;</span></span><br>
+			<span style="color:brown"><span style="color:mediumblue">&lt;</span>title<span style="color:mediumblue">&gt;</span></span>Page title<span style="color:brown"><span style="color:mediumblue">&lt;</span>/title<span style="color:mediumblue">&gt;</span></span><br>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>/head<span style="color:mediumblue">&gt;</span></span><br>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>body<span style="color:mediumblue">&gt;</span></span><br>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>h1<span style="color:mediumblue">&gt;</span></span>This is heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span><br>			
+			<span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>This is a paragraph<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br>
+			<span style="color:brown"><span style="color:mediumblue">&lt;</span>/body<span style="color:mediumblue">&gt;</span></span><br>
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>/html<span style="color:mediumblue">&gt;</span></span><br>
+	</div>
 </body>
-</html>
+</html>	
+			
+	
+	
+	
+	
+	
+	
+	
