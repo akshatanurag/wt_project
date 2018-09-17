@@ -234,6 +234,36 @@ STEP 1: Start Copying from here. -->
             </div>
         </li>
         <li>
+            <div class="dropdown">
+                <a href="pages/color.html">  <button class="dropbtn">Color</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="pages/comments.html">  <button class="dropbtn">Comments</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <a href="pages/quot.html">  <button class="dropbtn">Quote</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        <li>
 
         </li>
     </ul>

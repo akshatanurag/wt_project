@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,8 +12,8 @@
 </head>
 
 <body>
-       <!-- NAVBAR -->
-       <ul class="side-nav">
+   <!-- NAVBAR -->
+   <ul class="side-nav">
         <h1 style="color: white;padding: 10px;text-align: center;">Navigation Bar</h1>
         <hr>
         <li>
@@ -37,7 +39,7 @@
         </li>
         <li>
             <div class="dropdown">
-                <a href="frames.html"> <button class="dropbtn">Frames</button></a>
+                <a href="frames.html"> <button class="dropbtn ">Frames</button></a>
                 <!-- <div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
@@ -46,14 +48,14 @@
             </div>
         </li>
         <li>
-            <div class="dropdown" >
-                <a href="css.html "> <button class="dropbtn" >CSS</button></a>
-                 <!-- <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div> -->
-            </div>
+                <div class="dropdown" >
+                    <a href="css.html "> <button class="dropbtn" >CSS</button></a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> -->
+                </div>
         </li>
         <li>
                 <div class="dropdown" >
@@ -66,16 +68,16 @@
                 </div>
             </li>
         <li>
-                <div class="dropdown">
-                    <a href="classes.html"> <button class="dropbtn">Classes</button></a>
-                    <!-- <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> -->
-                </div>
-            </li>
-
+            <div class="dropdown" >
+                <a href="classes.html "> <button class="dropbtn" >Class</button></a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div> -->
+            </div>
+        </li>
+        
         <li>
             <div class="dropdown">
                 <a href="list.html">  <button class="dropbtn">Lists</button></a>
@@ -179,7 +181,7 @@
         </li>
         <li>
             <div class="dropdown">
-                <a href="html_input_attribute.html">  <button class="dropbtn active">Input Attributes</button></a>
+                <a href="html_input_attribute.html">  <button class="dropbtn">Input Attributes</button></a>
                 <!-- <div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
@@ -240,7 +242,7 @@
         </li>
         <li>
             <div class="dropdown">
-                <a href="quot.html">  <button class="dropbtn">Quote</button></a>
+                <a href="quot.html">  <button class="dropbtn active">Quote</button></a>
                 <!-- <div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
@@ -252,101 +254,127 @@
 
         </li>
     </ul>
-
-<!-- NAVBAR -->
-    <div class="container"> <!--SEE THIS DIV-->
-        <h1>HTML Input Attributes </h1>
-        <hr>
-        
-        <h1>The value Attribute</h1>
-        <hr>
-<p>The <span style ="color:red">value</span> attribute specifies the initial value 
-for an input field:</p>
-
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
+    <div class="container">
+<h1>HTML <span class="color_h1">Quotation and Citation Elements</span></h1>
+<div class="w3-example">
+<h3>Quotation</h3>
+<div class="w3-white w3-padding notranslate">
     
-    <span style="color:mediumblue">&lt;<span style="color:brown"> form </span><span style="color:red">action</span>=" "&gt;</span><br>
-    first name:<span style="color:mediumblue">&lt;<span style="color:brown">br</span>&gt;</span><br>
-    <span style="color:mediumblue">&lt; <span style="color:brown">input </span> <span style="color:red">type </span>="text" <span style="color:red">name</span>="firstname" <span style="color:red">value</span>="meera"&gt;&lt;<span style="color:brown">br</span>&gt;<br></span>
-        <span style="color:mediumblue">&lt;<span style="color:brown">/form</span>&gt;</span><br> 
+    
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
 </div>
 
-<h1>The readonly Attribute</h1>
-        <hr>
-        <p>The <span style="color:red">readonly</span> attribute specifies that the input field is 
-read only (cannot be changed):</p>
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span style="color:mediumblue">&lt;<span style="color:brown"> form </span><span style="color:red">action</span>=" "&gt;</span><br>
- first name:<span style="color:mediumblue">&lt;<span style="color:brown">br</span>&gt;</span><br>
-    <span style="color:mediumblue">&lt; <span style="color:brown">input </span> <span style="color:red">type </span>="text" <span style="color:red">name</span>="firstname " <span style="color:red">value</span>="meera"<span style="color:red">readonly</span>&gt;&lt;<span style="color:brown">br</span>&gt;<br></span>
-    <span style="color:mediumblue">&lt;<span style="color:brown">/form</span>&gt;</span><br> </div>
-
-<h1>The disabled Attribute</h1>
-        <hr>
-        <p>The <span style="color:red">disabled</span>attribute specifies that the input field is 
-disabled.</p>
-<p>A disabled input field is unusable and un-clickable, and its value will not 
-be sent when submitting the form:</p>
-
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span style="color:mediumblue">&lt;<span style="color:brown"> form </span><span style="color:red">action</span>=" "&gt;</span><br>
- first name:<span style="color:mediumblue">&lt;<span style="color:brown">br</span>&gt;</span><br>
-<span style="color:mediumblue">&lt; <span style="color:brown">input </span> <span style="color:red">type </span>="text" <span style="color:red">name</span>="firstname " <span style="color:red">value</span>="meera"<span style="color:red">disabled</span>&gt;&lt;<span style="color:brown">br</span>&gt;<br></span>
-    <span style="color:mediumblue">&lt;<span style="color:brown">/form</span>&gt;</span><br> 
-        </div>
-        
-        
-<h1>The size Attribute</h1>
-        <hr>
-        <p>The <span style="color:red">size</span>attribute specifies the size (in characters) 
-for the input field:</p>
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-span style="color:mediumblue">&lt;<span style="color:brown"> form </span><span style="color:red">action</span>=" "&gt;</span><br>
- first name:<span style="color:mediumblue">&lt;<span style="color:brown">br</span>&gt;</span><br>
-<span style="color:mediumblue">&lt; <span style="color:brown">input </span> <span style="color:red">type </span>="text" <span style="color:red">name</span>="firstname " <span style="color:red">value</span>="meera"<span style="color:red">size</span>="10"&gt;&lt;<span style="color:brown">br</span>&gt;<br></span>
-    <span style="color:mediumblue">&lt;<span style="color:brown">/form</span>&gt;</span><br> 
-
 </div>
-    
-    
-    <h1>The maxlength Attribute</h1>
     <hr>
-    <p>The <span style="color:red">maxlength</span> attribute specifies the maximum allowed length 
-for the input field:</p>
+<h2>HTML &lt;q&gt; for Short Quotations</h2>
+<p>The HTML <code class="w3-codespan">&lt;q&gt;</code> element defines a short quotation.</p>
+<p>Browsers usually insert quotation marks around the <code class="w3-codespan">&lt;q&gt;</code> element.</p>
+<div class="w3-example">
 <h3>Example</h3>
 <div class="w3-code notranslate htmlHigh">
-<span style="color:mediumblue">&lt;<span style="color:brown"> form </span><span style="color:red">action</span>=" "&gt;</span><br>
- first name:<span style="color:mediumblue">&lt;<span style="color:brown">br</span>&gt;</span><br>
-<span style="color:mediumblue">&lt; <span style="color:brown">input </span> <span style="color:red">type </span>="text" <span style="color:red">name</span>="firstname " <span style="color:red">maxlength</span>="20"&gt;&lt;<span style="color:brown">br</span>&gt;<br></span>
-    <span style="color:mediumblue">&lt;<span style="color:brown">/form</span>&gt;</span><br> 
+ <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>WWF's goal is to: <span style="color:brown"><span style="color:mediumblue">&lt;</span>q<span style="color:mediumblue">&gt;</span></span>Build a future where people live in harmony with 
+ nature.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/q<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span> </div>
 </div>
-<p>With a <span style "color:red"><code >maxlength</code> </span> attribute, the input field will not accept more than the 
-allowed number of characters.</p>
-    <p>The <span style "color:red"><code >maxlength</code> </span>attribute does not provide any feedback. If you want to alert the user, 
-you must write JavaScript code.</p>
+    <hr>
+<h2>HTML &lt;blockquote&gt; for Quotations</h2>
+<p>The HTML <code class="w3-codespan">&lt;blockquote&gt;</code> element defines a section that 
+is quoted from another source.</p>
+<p>Browsers usually indent <code class="w3-codespan">&lt;blockquote&gt;</code> elements.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>Here is a quote from WWF's website:<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span><br><span style="color:brown"><span style="color:mediumblue">&lt;</span>blockquote<span style="color:red"> cite<span style="color:mediumblue">="http://www.worldwildlife.org/who/index.html"</span></span><span style="color:mediumblue">&gt;</span></span><br>
+ For 50 years, WWF has been protecting the future of nature.<br>The world's 
+ leading conservation organization,<br>WWF works in 100 countries and is 
+ supported by<br>1.2 million members in the United States and<br>close to 5 
+ million globally.<br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/blockquote<span style="color:mediumblue">&gt;</span></span> </div>
+    <hr>
+    <h2>HTML &lt;abbr&gt; for Abbreviations</h2>
+    <p>The HTML <code class="w3-codespan">&lt;abbr&gt;</code> element defines an abbreviation 
+or an acronym.</p>
+    <p>Marking abbreviations can give useful information to browsers, translation 
+systems and search-engines.</p>
+    <div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>The <span style="color:brown"><span style="color:mediumblue">&lt;</span>abbr<span style="color:red"> title<span style="color:mediumblue">="World Health Organization"</span></span><span style="color:mediumblue">&gt;</span></span>WHO<span style="color:brown"><span style="color:mediumblue">&lt;</span>/abbr<span style="color:mediumblue">&gt;</span></span> was founded in 
+ 1948.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span> </div>
+</div>
+    <hr>
     
+    <h2>HTML &lt;address&gt; for Contact Information</h2>
+    <p>The HTML <code class="w3-codespan">&lt;address&gt;</code> element defines contact information 
+(author/owner) of a document or an article.</p>
+    <p>The <code class="w3-codespan">&lt;address&gt;</code> element is usually displayed in italic. Most browsers 
+will add a line break before and after the element.</p>
+    <div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+
+ <span style="color:brown"><span style="color:mediumblue">&lt;</span>address<span style="color:mediumblue">&gt;</span></span><br>Written by John Doe.<span style="color:brown"><span style="color:mediumblue">&lt;</span>br<span style="color:mediumblue">&gt;</span></span> <br>Visit us at:<span style="color:brown"><span style="color:mediumblue">&lt;</span>br<span style="color:mediumblue">&gt;</span></span><br>Example.com<span style="color:brown"><span style="color:mediumblue">&lt;</span>br<span style="color:mediumblue">&gt;</span></span><br>
+ Box 564, Disneyland<span style="color:brown"><span style="color:mediumblue">&lt;</span>br<span style="color:mediumblue">&gt;</span></span><br>USA<br><span style="color:brown"><span style="color:mediumblue">&lt;</span>/address<span style="color:mediumblue">&gt;</span></span> </div>
+</div>
+</div>
+    <hr>
+<h2>HTML &lt;cite&gt; for Work Title</h2>
+<p>The HTML <code class="w3-codespan">&lt;cite&gt;</code> element defines the title of a 
+work.</p>
+<p>Browsers usually display <code class="w3-codespan">&lt;cite&gt;</code> elements in italic.</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ <span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span><span style="color:brown"><span style="color:mediumblue">&lt;</span>cite<span style="color:mediumblue">&gt;</span></span>The Scream<span style="color:brown"><span style="color:mediumblue">&lt;</span>/cite<span style="color:mediumblue">&gt;</span></span> by Edvard Munch. Painted in 1893.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span> </div>
+</div>
+    <hr>
+<h2>HTML &lt;bdo&gt; for Bi-Directional Override</h2>
+<p>The HTML <code class="w3-codespan">&lt;bdo&gt;</code> element defines bi-directional 
+override.</p>
+<p>The <code class="w3-codespan">&lt;bdo&gt;</code> element is used to override the current text direction:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+ <span style="color:brown"><span style="color:mediumblue">&lt;</span>bdo<span style="color:red"> dir<span style="color:mediumblue">="rtl"</span></span><span style="color:mediumblue">&gt;</span></span>This text will be written from right to left<span style="color:brown"><span style="color:mediumblue">&lt;</span>/bdo<span style="color:mediumblue">&gt;</span></span> </div>
+</div>
+    <hr>
+<h2>HTML Quotation and Citation Elements</h2>
+<table class="w3-table-all notranslate">
+<tbody><tr>
+<th style="width:20%">Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><a href="/tags/tag_abbr.asp">&lt;abbr&gt;</a></td>
+<td>Defines an abbreviation or acronym</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_address.asp">&lt;address&gt;</a></td>
+<td>Defines contact information for the author/owner of a document</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_bdo.asp">&lt;bdo&gt;</a></td>
+<td>Defines the text direction</td>
+</tr>
+<tr>
+<td><a href="/tags/tag_blockquote.asp">&lt;blockquote&gt;</a></td>
+<td> Defines a section that is quoted from another source</td>
+</tr>
+  <tr>
+<td><a href="/tags/tag_cite.asp">&lt;cite&gt;</a></td>
+<td>Defines the title of a work</td>
+  </tr>
+<tr>
+<td><a href="/tags/tag_q.asp">&lt;q&gt;</a></td>
+<td>Defines a short inline quotation</td>
+</tr>
+</tbody></table>
+    <hr>
+</div>
     </body>
 </html>
-    
-    
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
